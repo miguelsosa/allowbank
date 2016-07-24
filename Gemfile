@@ -48,6 +48,8 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # Use Devise for user management
 gem 'devise'
 
+# Manage bower assetts
+gem 'bower-rails'
 
 # For deployemnt to heroku we need postgres, but for ease of
 # development/test we can use sqlite
@@ -55,8 +57,18 @@ gem 'devise'
 group :development, :test do
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
+
+  # Use jasmine/teaspoon for javascript unit testing
+  gem 'teaspoon-jasmine'
+
 end
 
 group :production do
   gem 'pg'
 end
+
+group :test do
+  # For end to end acceptace testing
+  gem 'poltergeist'
+end
+
