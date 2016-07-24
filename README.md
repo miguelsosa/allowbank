@@ -1,24 +1,8 @@
-# README
+Allowbank - keep track of allowance (or commissions) for your family
+members.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Create with Ruby 2.30 and Rails 5.
 
-Things you may want to cover:
 
-* Ruby version
 
-* System dependencies
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
